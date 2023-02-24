@@ -1,0 +1,18 @@
+cdk commands:
+
+/* Init App */
+- cdk init app --language typescript
+
+/* Generate CloudFromationTemplate */
+- cdk synth (json files) & refresh template
+- cdk bootstrap (create CloudFormation stack, staging bucket)
+- cdk deploy (deployment of projects) // cdk deploy --all or [specific stack]
+
+/* Helper commands */
+- cdk list
+- cdk diff (compare local stacks)
+- cdk destroy [nameofStack]
+- cdk doctor (check for issues in stacks)
+
+
+
