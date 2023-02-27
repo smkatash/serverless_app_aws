@@ -14,5 +14,3 @@ cdk commands:
 - cdk destroy [nameofStack]
 - cdk doctor (check for issues in stacks)
 
-
-

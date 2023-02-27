@@ -1,0 +1,35 @@
+@endpoint = https://y623mnu5ig.execute-api.us-east-1.amazonaws.com/prod
+
+GET {{endpoint}}/hello/
+###
+
+
+GET {{endpoint}}/spaces?spaceId=3eb820f9-af3f-43ae-bc28-3fe7dfaaf023
+###
+
+
+GET {{endpoint}}/spaces/
+###
+
+GET {{endpoint}}/spaces?location=New-York
+###
+
+
+POST {{endpoint}}/spaces/
+Content-Type: application/json
+
+{
+	"location": "Barcelona",
+	"name": "Top location"
+}
+###
+
+PUT {{endpoint}}/spaces?spaceId=pl070h1dxnf
+Content-Type: application/json
+
+{
+	"location": "Tokyo"
+}
+###
+
+DELETE {{endpoint}}/spaces?spaceId=c07a7829-338e-4cc0-9b23-1455f0d8bb83
