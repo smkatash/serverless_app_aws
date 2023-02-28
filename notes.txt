@@ -13,4 +13,3 @@ cdk commands:
 - cdk diff (compare local stacks)
 - cdk destroy [nameofStack]
 - cdk doctor (check for issues in stacks)
-

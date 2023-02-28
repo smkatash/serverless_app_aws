@@ -18,8 +18,10 @@
     "typescript": "^4.9.5"
   },
   "dependencies": {
+    "@aws-amplify/auth": "^5.1.10",
     "@types/aws-lambda": "^8.10.111",
     "@types/uuid": "^9.0.1",
+    "aws-amplify": "^5.0.16",
     "aws-sdk": "^2.1323.0"
   }
 }
